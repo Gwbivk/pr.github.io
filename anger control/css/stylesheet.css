@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    position: relative;
+
+}
+#navbar ul {
+    display: flex;
+    font-family: cursive;
+    padding-inline-start: 50px;
+    margin-inline-start: 50px;
+
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.80;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 24px;
+}
+#navbar ul li a{
+
+
+    color: pink;
+    display: block;
+    padding: 3px 45px;
+   
+    border-radius: 20px;
+    text-decoration: none;
+   
+}
+.item{
+    color: pink;
+}
+
+#navbar ul li a:hover{
+
+    color: white;
+    background-color: white;
+ 
+}
+.item :hover{
+    color: white;
+}
+#home img{
+    height: 100px;
+    margin: 2px 5px;
+   /* align-items: flex-start; */
+    
+}
+
+#logo{
+    margin: 35px 45px;
+
+
+}
+#logo img{
+    height: 62px;
+
+        margin: -41px -43px;
+
+     
+
+}
+ /* homesection */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 399px;
+    justify-content: center;
+
+    align-items: center;
+}
+/* #home::before{
+    content: "";
+    background: url('../sikkim.jpeg') no-repeat center center/cover;
+    
+    position: absolute;
+    height: 101%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.5;
+} */
+/* #home::after{
+    content: "";
+
+    background: url('../vasudev\ kumar.jpg') no-repeat top right  /*bottom*//cover;
+   
+    /* margin: 100px;
+    /* position: absolute; 
+    height: 66%;
+    width: 18%; 
+    z-index: -1;
+    opacity: 1.5; */
+
+}
+/* #home::after{
+    content: "";
+    background: url('../vasudev\ kumar.jpg') no-repeat top right  /*bottom*//cover;
+   
+   /* margin: 100px;
+  
+    height: 66%;
+    width: 18%;
+    z-index: -1;
+    opacity: 1.5;} */
+#home h1{
+
+    color: white;
+    text-align: center;
+}
+#home p{
+    color: rgb(183 205 63);
+    text-align: center;
+    font-size: 54px;
+}
+
+/*services center*/
+#hero{
+    margin: 34px;
+    display: flex;
+    /* border: 2px solid red;
+    color: black;
+    image-rendering: 15px;
+    border-image-width: 25px; */
+    
+
+
+}
+/* #hero .herov{
+    border: 2px solid green;
+
+
+} */
+
+#hero .herov img{
+    height: 100px;
+
+}
+#hero .herov{ 
+    border: 2px solid brown; 
+    padding: 34px;
+    /* margin: 9px 12px; */
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    /* width: 59%;*/
+} 
+/* rember to comment out */
+#hero{
+    border-radius: 5px;
+    border: 2px solid rgb(252, 253, 248);
+   
+    margin: 14px;
+ 
+    display: inline-block;
+    text-align: center;
+}
+
+#secp .second{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin:-4px 681px;
+    /* display: flex; */
+    
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+.font{
+    color: rgb(17, 162, 247);
+    font-size: 30px;
+}
+#secp .second img{
+    height: 350px;
+    /* margin: 160px; */
+    /* display: flex; */
+}
+#hero .herov img {
+    height: 245px;
+    width: 419px;
+    margin: auto;
+    display: block;
+}
+/* #services.sq{
+    color: red;
+    
+}
+#services.box{
+    border: 4px solid blue; */
+
+
+/* utlityclass */
+.h-primary{
+    font-size: 75px;
+    padding: 203px;
+    color: white;
+
+}
+.h-third{
+    font-size: 75px;
+    padding: 21px;
+}
+.h-four{
+    font-size: 55px;
+    padding: 25px;
+    
+}
+.h-five{
+    font-size: 75px;
+ 
+    margin: 50px;
+}
+
+.h-secondary{
+    font-size: 44px;
+    padding: 15px;
+    color: coral;
+}
+.name{
+    text-align: center;
+    color: rgb(76, 76, 99);
+}
+
+.btn{
+    padding: 6px 20px ;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 34px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+@media (min-width:375px) and (max-width:410px){
+    #hero {
+        border-radius: 5px;
+        border: 2px solid rgb(252, 253, 248);
+        width: 128%;
+        margin-left: -2px;
+        /* margin: 14px; */
+        height: 200px;
+        display: inline-block;
+        text-align: center;
+    }
+}
